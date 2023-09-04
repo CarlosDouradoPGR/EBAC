@@ -169,7 +169,7 @@ st.markdown("### Tenter descrever em algumas palavras qual o tipo de experiênci
 st.markdown("Exemplo: Busco uma motocicleta para trabalhar como entregador em grandes cidades")
 
 
-idx1, idx2, idx3 = 0, 0, 0 
+idx1, idx2, idx3 = 0, 0, 0
 texto = st.text_input("Sua vez: ").lower().split()
 
 if texto:
